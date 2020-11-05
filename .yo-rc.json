@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sanshit.jhipster.app"
+    },
+    "jhipsterVersion": "6.10.4",
+    "applicationType": "monolith",
+    "baseName": "jhipster",
+    "packageName": "com.sanshit.jhipster.app",
+    "packageFolder": "com/sanshit/jhipster/app",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MGMzYzczNDQwM2FlODU1Y2YxNGU2Yzc1MGI3NDg5MWM5OGEwNjgyMGRjM2Q0NTdmMmIyM2U4OGZjMTVhZTZmNzUzNThlNDU1MDAwZjIxOTRjYTNkNGNmM2U4YzAyNDViODgxYmU3NjNkYzRmY2VjNWU5NzdmZWFkYmU1OWU5MTQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "minty",
+    "clientThemeVariant": "dark",
+    "creationTimestamp": 1604569182652,
+    "testFrameworks": ["gatling", "cucumber", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
