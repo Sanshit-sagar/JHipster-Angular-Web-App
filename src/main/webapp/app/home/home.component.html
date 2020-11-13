@@ -10,7 +10,8 @@
 
         <div [ngSwitch]="isAuthenticated()">
             <div class="alert alert-success" *ngSwitchCase="true">
-                <span id="home-logged-message" *ngIf="account">You are logged in as user "{{ account.login }}".</span>
+                <span id="home-logged-message" *ngIf="account"> Congratulations {{ account.firstName }}, you are now logged in! </span>
+                <!-- <span id="home-logged-message" *ngIf="account">You are logged in as user "{{ account.login }}".</span>
             </div>
 
             <div class="alert alert-warning" *ngSwitchCase="false">
@@ -20,8 +21,8 @@
 
             <div class="alert alert-warning" *ngSwitchCase="false">
                 <span>You don't have an account yet?</span>&nbsp;
-                <a class="alert-link" routerLink="account/register">Register a new account</a>
-            </div>
+                <a class="alert-link" routerLink="account/register">Register a new account</a> -->
+            <!-- </div> -->
         </div>
 
         <p>
